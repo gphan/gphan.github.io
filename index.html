@@ -9,27 +9,44 @@
     <meta name="author" content="Giang Phan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="http://www.giangphan.com" />
-    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
 
     <!-- Bootstrap -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/giangphan.css" rel="stylesheet">
+    <script>
+      var taglines = [
+        "Engineering software somewhere around Portland.",
+        "Dabbling with binary trees in Beaverton.",
+        "Eating silicon waffles in Hillsboro.",
+        "Writing cloud services for a big sports apparel company.",
+        "Dancing with the scalability wolves.",
+        "Raking up tech debt leaves in Oregon.",
+        "Making random textfields appear on web pages somewhere..."
+      ];
+
+      function loadRandomTagline() {
+        var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+        document.getElementById("tagline").innerText = "I'm currently: " + tagline;
+
+        setTimeout(loadRandomTagline, 10000);
+      }
+    </script>
   </head>
-  <body>
+  <body onload="loadRandomTagline()">
     <div class="container">
       <div class="jumbotron">
         <div class="container">
           <h1>Hi! I'm Giang Phan.</h1>
           <h2>My name is pronounced <em>yee-ang fan</em>.</h2>
-          <p>I write software somewhere around Portland.</p>
+          <p id="tagline"></p>
         </div>
       </div>
       <a name="portfolio"></a>
       <h2>Work</h2>
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-md-6">
           <a href="http://www.nike.com" target="_blank" class="thumbnail">
             <img class="img-responsive" src="img/nike.jpg" alt="Nike.com / One Nike" />
           </a>
@@ -39,7 +56,7 @@
             Adobe Experience Manager (AEM). More recently working on new cloud initiative to build all purpose CMS that solves a lot of pain points and scalability issues we have had with former CMS systems.</p>
           </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-md-6">
           <a href="http://www.opconnect.com" target="_blank" class="thumbnail">
             <img class="img-responsive" src="img/opconnect.jpg" alt="OpConnect EVCS Charging Station" />
           </a>
