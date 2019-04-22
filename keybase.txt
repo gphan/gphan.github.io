@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gphan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.giangphan.com
+  * I am gphan (https://keybase.io/gphan) on keybase.
+  * I have a public key ASAkIxdqNJKZgTLnz1DVi8tMU5SGisGZflCz18vDMyPfnQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014690b5863ed610c12296ad868a3e92b24f7ed70fe84dc2f0ea60dbd0b88350510a",
+      "host": "keybase.io",
+      "kid": "01202423176a3492998132e7cf50d58bcb4c5394868ac1997e50b3d7cbc33323df9d0a",
+      "uid": "c515fa19b00a33196a7a148cdcf24819",
+      "username": "gphan"
+    },
+    "merkle_root": {
+      "ctime": 1555968916,
+      "hash": "732fd9728204502efd210126e40fc2d1162452d6655ba04312c9b0b32eb0e162271e4bec2261fae2b0dc2d513dbf7a0c83b26dcacc6aa88495588ee15e7bde0e",
+      "hash_meta": "0d5a8a3782aabacb74ae3593c255ef0ae8a08ec6be55eb7c9ba50c0e06751eb4",
+      "seqno": 5220732
+    },
+    "service": {
+      "entropy": "Ka4M+yKhu1pZXTlKupu5/9ZF",
+      "hostname": "www.giangphan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555968944,
+  "expire_in": 504576000,
+  "prev": "ce33a7d2f677c66452a69b3f5f184294d245b2ca4e477a2866dc02f9c071e45a",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJCMXajSSmYEy589Q1YvLTFOUhorBmX5Qs9fLwzMj350Kp3BheWxvYWTESpcCDMQgzjOn0vZ3xmRSpps/XxhClNJFsspOR3ooZtwC+cBx5FrEIOwOF0SDTYMfVz0qtv1NQGOP11WOvl9c6ReBEQVerQS9AgHCo3NpZ8RA8uSftYRqIxGLTpbrbjfn9NRr/R3VTq2O93V9LCMn49DzXG3dE5BqcAPTpfHshqoukTS8EhqqIFOENWLXfq6yAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIILlayEd4qdElEyVX1eIbtNvIrT14yH9Wh13LDEBICI4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gphan
+
+==================================================================
