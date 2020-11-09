@@ -1,34 +1,40 @@
 body {
-  font-size: 16px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 1.75em;
+  background: url('../img/stars-white.jpg');
+  font-family: 'Comic Sans MS', 'Comic Sans', Arial, sans-serif;
+  color: yellow;
+  text-align: center;
+  font-size: 120%;
+  margin: 50px;
 }
 
-.jumbotron {
-  background: url('../img/hero.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-  text-shadow: 1px 1px 3px #333;
-  box-shadow: 2px 2px 2px #666;
-  border-radius: 0;
+h1 {
+  color: cyan;
+  font-size: 36pt;
+  margin: 0;
 }
 
-footer {
-  padding-top: 20px;
-  color: #666;
+h2 {
+  font-size: 24pt;
 }
 
-.other-resources a {
-  text-decoration: none;
-  padding-left: 8px;
-  vertical-align: middle;
+h3 {
+  color: lime;
 }
 
-.other-resources i {
-  font-size: 20px;
-  vertical-align: middle;
+h3 a {
+  font-style: oblique;
+}
+
+h3 a:hover {
+  background: white;
+  color: black;
+}
+
+hr {
+  width: 1200px;
+}
+
+.disclaimer {
+  font-size: 10pt;
+  color: gray;
 }

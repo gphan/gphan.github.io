@@ -3,83 +3,60 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Giang Phan | Programming Zen</title>
+    <title>GiangPhan.com</title>
 
-    <meta name="description" content="Personal portfolio and landing page for Giang Phan - a software developer in Portland.">
+    <meta name="description" content="Where software, gaming, and technology come to die">
     <meta name="author" content="Giang Phan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="http://www.giangphan.com" />
+    <link rel="canonical" href="https://www.giangphan.com" />
     <link rel="shortcut icon" href="favicon.ico"/>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/giangphan.css" rel="stylesheet">
-    <script>
-      var taglines = [
-        "Engineering software somewhere around Portland.",
-        "Dabbling with binary trees in Beaverton.",
-        "Eating silicon waffles in Hillsboro.",
-        "Writing cloud services for a big sports apparel company.",
-        "Dancing with the scalability wolves.",
-        "Raking up tech debt leaves in Oregon.",
-        "Making random textfields appear on web pages somewhere..."
-      ];
-
-      function loadRandomTagline() {
-        var tagline = taglines[Math.floor(Math.random() * taglines.length)];
-        document.getElementById("tagline").innerText = "I'm currently: " + tagline;
-
-        setTimeout(loadRandomTagline, 10000);
-      }
-    </script>
   </head>
-  <body onload="loadRandomTagline()">
-    <div class="container">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Hi! I'm Giang Phan.</h1>
-          <h2>My name is pronounced <em>yee-ang fan</em>.</h2>
-          <p id="tagline"></p>
-        </div>
-      </div>
-      <a name="portfolio"></a>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="http://www.nike.com" target="_blank" class="thumbnail">
-            <img class="img-responsive" src="img/nike.jpg" alt="Nike.com / One Nike" />
-          </a>
-          <div class="thumbnail-description">
-            <h3>Nike</h3>
-            <p>I've done various things for Nike mostly related to Nike.com and content management. Previously worked on the team that built the content platform using
-            Adobe Experience Manager (AEM). More recently working on new cloud initiative to build all purpose CMS that solves a lot of pain points and scalability issues we have had with former CMS systems.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <a href="http://www.opconnect.com" target="_blank" class="thumbnail">
-            <img class="img-responsive" src="img/opconnect.jpg" alt="OpConnect EVCS Charging Station" />
-          </a>
-          <div class="thumbnail-description">
-            <h3>OpConnect EVCS</h3>
-            <p>As the primary engineer working on the OpConnect charging stations: I laid the foundation for the interactive touch screen interface and helped develop the back bone to support the future of automotive transportation.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container other-resources">
-      <hr>
-      <p>You can find out more about me at one of the following:</p>
-      <ul class="list-inline">
-        <li class="linkedin"><i class="icon-social-linkedin"></i><a href="http://www.linkedin.com/in/giangphan/" target="_blank">LinkedIn</a></li>
-        <li class="github"><i class="icon-social-github"></i><a href="http://github.com/gphan" target="_blank">GitHub</a></li>
-        <li class="instagram"><i class="icon-social-instagram"></i><a href="http://instagram.com/notgiang" target="_blank">Instagram</a></li>
+  <body>
+    <header>
+      <h1>Welcome to my personal homepage!</h1>
+      <h2>My name is Giang Phan. Pronounced <em>yee-ang fan</em>.</h2>
+      <img src="img/construction.gif" alt="This page is designed for nostalgic purposes" />
+    </header>
+    <hr />
+    <section>
+      <h3>I'm a software engineer currently working at a <em>small</em> shoe company called <a href="https://www.nike.com" target="_blank">Nike</a> in Beaverton, Oregon.</h3>
+      <h4>My previous places of employment include:</h4>
+      <ul>
+        <li>Ubiquiti</li>
+        <li>Optimization Technologies / OpConnect</li>
+        <li>Carestream Health</li>
+        <li>Intel</li>
       </ul>
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/giangphan.js"></script>
+      <p>You can learn more on my <a href="https://www.linkedin.com/in/giangphan/" target="_blank">LinkedIn</a>.
+        </p>
+        <img src="img/head_construction.gif" />
+    </section>
+    <hr />
+    <section>
+      <h3>My experiences have given me the following skills:</h3>
+      <ul>
+        <li>Microservices using Java and Kotlin</li>
+        <li>Highly scalable software using AWS including DynamoDB, SQS, SNS, and ECS/EC2</li>
+        <li>Cloud-native architecture for content management systems</li>
+        <li>An <em>appreciation</em> for beautiful web design</li>
+      </ul>
+    </section>
+    <hr />
+    <section>
+      <h3>My hobbies include:</h3>
+      <ul>
+        <li>PC Gaming</li>
+        <li>Computer Hardware</li>
+        <li>Home Automation</li>
+        <li>Personal Finance</li>
+        <li>Travel and Photography</li>
+      </ul>
+    </section>
+    <hr />
+    <footer>
+      <div>This page looks best on <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="img/ie.gif" alt="Please stop WebKit mono culture and use Firefox." /></a></div>
+      <div class="disclaimer">The images on this page were found on the internet archive and this page is hosted on <a href="https://github.com/gphan/gphan.github.io" target="_blank">GitHub</a>.</div>
+    </footer>
   </body>
 </html>
