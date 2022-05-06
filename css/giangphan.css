@@ -1,7 +1,16 @@
+@keyframes color {
+  0%   { color: #33CCCC; }
+  20%  { color: #33CC36; }
+  40%  { color: #B8CC33; }
+  60%  { color: #FCCA00; }
+  80%  { color: #33CC36; }
+  100% { color: #33CCCC; }
+}
+
 body {
   background: url('../img/stars-white.gif') black;
   font-family: 'Comic Sans MS', 'Comic Sans', Arial, sans-serif;
-  color: yellow;
+  color: white;
   text-align: center;
   font-size: 120%;
   margin: 50px;
@@ -9,32 +18,94 @@ body {
 
 h1 {
   color: cyan;
+  animation: color 9s infinite linear;
   font-size: 36pt;
   margin: 0;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+  height: 80px;
+  margin: 1em;
+}
+
+.marquee h2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  animation: scrolling 30s linear infinite;
+  transform: translateX(100%);
 }
 
 h2 {
   font-size: 24pt;
 }
 
+h2 strong {
+  color: magenta;
+}
+
+h2 em {
+  color: orange;
+}
+
 h3 {
   color: lime;
 }
 
-h3 a {
-  font-style: oblique;
+a:hover {
+  background: white;
 }
 
-h3 a:hover {
-  background: white;
-  color: black;
+a:visited, a:active {
+  color: purple;
 }
 
 hr {
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .disclaimer {
   font-size: 10pt;
   color: gray;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.construction {
+  vertical-align: middle;
+  font-size: 12pt;
+}
+
+.construction img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+footer {
+  vertical-align: middle;
+}
+
+footer img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.browser {
+  font-size: 10pt;
 }
