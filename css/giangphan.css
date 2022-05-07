@@ -1,10 +1,10 @@
 @keyframes color {
-  0%   { color: #33CCCC; }
-  20%  { color: #33CC36; }
-  40%  { color: #B8CC33; }
-  60%  { color: #FCCA00; }
-  80%  { color: #33CC36; }
-  100% { color: #33CCCC; }
+  0%   { color: red; }
+  20%  { color: blue; }
+  40%  { color: green; }
+  60%  { color: yellow; }
+  80%  { color: purple; }
+  100% { color: cyan; }
 }
 
 body {
@@ -54,10 +54,12 @@ h2 {
 
 h2 strong {
   color: magenta;
+  animation: color 10s linear infinite;
 }
 
 h2 em {
   color: orange;
+  animation: color 10s linear infinite;
 }
 
 h3 {
@@ -90,6 +92,7 @@ ul, li {
 .construction {
   vertical-align: middle;
   font-size: 12pt;
+  color: yellow;
 }
 
 .construction img {
@@ -97,7 +100,12 @@ ul, li {
   display: inline-block;
 }
 
+section {
+  padding: 10px 0;
+}
+
 footer {
+  padding-top: 10px;
   vertical-align: middle;
 }
 
@@ -108,4 +116,31 @@ footer img {
 
 .browser {
   font-size: 10pt;
+}
+
+.counter {
+  margin: 10px 0 30px 0;
+  font-size: 10pt;
+}
+
+.counter span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  letter-spacing: 0.33ch;
+  border: 1px solid #333;
+  color: #333;
+  background: rgb(204,204,204);
+  background: linear-gradient(0deg, #666 0%, #fff 30%, #fff 70%, #666 100%);
+  padding: 5px;
+}
+
+.lastupdated {
+  font-size: 8pt;
+  color: #ccc;
+  margin: 20px 0 0 0;
+}
+
+.lastupdated em {
+  color: #999;
+  font-weight: bolder;
 }
