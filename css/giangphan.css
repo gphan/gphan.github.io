@@ -66,6 +66,11 @@ h3 {
   color: lime;
 }
 
+.current strong, .current em {
+  color: white;
+  animation: color 10s linear infinite;
+}
+
 a:hover {
   background: white;
 }
