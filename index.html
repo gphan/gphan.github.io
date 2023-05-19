@@ -84,7 +84,7 @@
     <hr />
     <footer>
       <div class="counter">
-        This page has been visited <span>0013370</span> times
+        This page has been visited <span id="counter">0013370</span> times
       </div>
       <div class="browser">
         Best viewed on <a href="https://www.mozilla.org" target="_blank"><img src="img/ie.gif" alt="Please stop WebKit mono culture and use Firefox." /></a>
@@ -97,5 +97,12 @@
         Page last updated on <em>12/31/1999</em>
       </div>
     </footer>
+    <script>
+      (function() {
+        const visited = localStorage.getItem('counter') || 13370;
+        document.getElementById('counter').innerHTML = '00' + visited;
+        localStorage.setItem('counter', parseInt(visited) + 1);
+      })();
+    </script>
   </body>
 </html>
